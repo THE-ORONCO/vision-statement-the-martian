@@ -2,6 +2,7 @@
 = Vision Statement A: Münchhausen auf dem Mond #text(size: 10pt, weight: "regular")[(Arbeitstitel, Rohentwurf)]
 
 #quote(block: true)["Der größte Lügner der Welt – und diesmal ist jedes Wort wahr."]
+#align(center, image("../images/a-muenchhausen-mond.png", height: 300pt))
 ]
 #columns(2, gutter: 1cm)[
   == Worum geht es?

@@ -2,6 +2,7 @@
 = Vision Statement C3: Aschenland – Münchhausen in der Wabe #text(size: 10pt, weight: "regular")[(Arbeitstitel, Rohentwurf)]
 
 #quote(block: true)["In einer Bibliothek aller Lügen ist der größte Lügner der Welt zu Hause."]
+#align(center, image("../images/c-aschenland-muenchhausen.png", height: 300pt))
 ]
 
 #columns(2, gutter: 1cm)[

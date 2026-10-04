@@ -2,6 +2,7 @@
     = Vision Statement C2: Aschenland – Die Alchemistin #text(size: 10pt, weight: "regular")[(Arbeitstitel, Rohentwurf)]
 
     #quote(block: true)["Ihr großes Werk hat die Welt in Asche gelegt. Jetzt muss sie überleben und aus ihr wieder auferstehen."]
+#align(center, image("../images/c-aschenland-alchemistin.png", height: 300pt))
 ]
 #columns(2, gutter: 1cm)[
   == Worum geht es?

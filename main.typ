@@ -9,6 +9,9 @@
   align(center, text(fill: white, weight: "bold", size: 13pt, it.body)),
 )
 
+// KI-generierte Bilder müssen rot umrandet sein (Vorgabe Prüfer)
+#show image: it => box(stroke: 10pt + red, it)
+
 #include "drafts/a-muenchhausen-mond.typ"
 #pagebreak()
 #include "drafts/c-aschenland-alchemistin.typ"
