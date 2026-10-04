@@ -1,68 +1,39 @@
-#page[
-= Vision Statement A: Münchhausen auf dem Mond #text(size: 10pt, weight: "regular")[(Arbeitstitel, Rohentwurf)]
+#import "../template.typ": vision
 
-#quote(block: true)["Der größte Lügner der Welt – und diesmal ist jedes Wort wahr."]
-#align(center, image("../images/a-muenchhausen-mond.png", height: 300pt))
-]
-#columns(2, gutter: 1cm)[
-  == Worum geht es?
-  Im Zeitalter der Aufklärung streitet die Akademie: Ist die Alchemie noch Wissenschaft – oder
-  schon Aberglaube? Ihre Antwort ist ein Luftschiff, getragen von _brennbarer Luft_, das zum Mond
-  fliegt. An Bord: Baron Münchhausen. Ein Mondstaubsturm zwingt die Crew zum Notstart, der Baron
-  bleibt für tot zurück. Auf der Erde wird er betrauert – und belächelt: Sein Tod sei seine beste
-  Geschichte.
-
-  Er lebt. Mit einem alten Alchemiebuch, einem neuen Chemielehrbuch und grenzenlosem
-  Selbstbewusstsein macht er den Mond bewohnbar. Seine Berichte zur Erde sind die einzige Quelle –
-  und der Mann ist bekannt dafür, dass man ihm kein Wort glauben kann.
-
-  #colbreak()
-  == Core Gameplay
-  *Problem → Bestandsaufnahme → Lösung (oft mit Fehlschlag) → Pointe → Logbuch → Folgeproblem.*
-  Auf dem Mond löst der Spieler Überlebensrätsel mit Mondeis, Schwefel, Salpeter und Bohnen aus
-  der Westentasche. Nach jeder Lösung schreibt er das Logbuch: wahr, ausgeschmückt oder frei
-  erfunden. Auf der Erde muss die Sternwarten-Gehilfin mit genau diesen Berichten arbeiten –
-  und die Akademie überzeugen.
-
-  == Drei Stränge, drei Figuren
-  - *Mond – Münchhausen:* Überleben, Experimente, das Logbuch.
-  - *Erde – die Sternwarten-Gehilfin:* zwischen Alchemisten und Chemikern der Akademie, die über
-    jeden Bericht streiten.
-  - *Luftschiff – die Kapitänin:* hat ihn zurückgelassen und trägt die Schuld; ihr Strang führt
-    zur Umkehr.
-]
-== Die DNA des Spiels
-#columns(2, gutter: 1cm)[
-  - #underline[*Genre & Look:*] Narratives Rätsel-Adventure (Point & Click), Pixel-Art mit
-    reduzierter Sepia-Palette. Dithering wird zur Schraffur: Das Spiel sieht aus wie ein
-    Kupferstich-Buch voller Lügengeschichten.
-
-  - #underline[*Das Logbuch als Mechanik:*] Der Spieler entscheidet, wie der Baron erzählt.
-    Übertreibungen bringen die größeren Pointen, kosten aber Glaubwürdigkeit auf der Erde. Dort
-    müssen dann mehr Beweise her. Glaubwürdigkeit verändert Wege, sperrt sie aber nie.
-
-  - #underline[*Aufklärung als Rätsellogik:*] Zwei Wissensquellen: das alte Alchemiebuch und die
-    neue Chemie. Alte Rezepte scheitern oft (komisch, nie tödlich), wohingegen die neue Wissenschaft
-     nach festen, lernbaren Regeln funktioniert. Manchmal steckt im Aberglauben aber ein wahrer Kern.
-
-  #colbreak()
-
-  - #underline[*Drei Stränge, eine Rettung:*] Der Spieler wechselt jederzeit zwischen den drei
-    Figuren. Kontakt, Umkehr und Rettung sind nur gemeinsam lösbar.
-
-  - #underline[*Galgenhumor & fair scheitern:*] Kein Tod, keine Sackgassen. Nach großen Katastrophen hält das Spiel den Ernst bewusst länger aus.
-
-  == Dramaturgische Anker
-  #table(
-    columns: (auto, 1fr),
-    stroke: 0.4pt + gray,
-    inset: 4pt,
-    [*Auslöser*], [Mondstaubsturm, Notstart, Münchhausen bleibt zurück.],
-    [*Überleben*], [Türkische Bohnen im Kraterglashaus, Wasser aus Mondeis.],
-    [*Wendepunkt*], [Riesige Lettern im Mondstaub machen die Sternwarte aufmerksam. Münchhausen lernt die optische Telegrafie aus einem Buch und sendet mit Spiegel und Sonnenlicht Zeichen zur Erde.],
-    [*Rückschlag*], [Die Mondnacht (14 Tage) lässt das Bohnenhaus erfrieren.],
-    [*Tiefpunkt*], [Die Versorgungskanone versagt, die Kugel zerbricht.],
-    [*Umkehr*], [Die Crew kehrt gegen den Befehl der Akademie um.],
-    [*Finale*], [Abstieg am Seil aus Bohnenstroh – zu kurz. Improvisation mit allem Gelernten.],
-  )
-]
+#vision(
+  title: [Münchhausen auf dem Mond],
+  x: ["Der größte Lügner der Welt – und diesmal ist jedes Wort wahr."],
+  img: image("../images/a-muenchhausen-mond.png", height: 250pt),
+  about: [
+    - Zeitalter der Aufklärung: Die Akademie streitet, ob Alchemie noch Wissenschaft ist.
+    - Ein Luftschiff voll _brennbarer Luft_ fliegt zum Mond, an Bord: Baron Münchhausen.
+    - Ein Mondstaubsturm erzwingt den Notstart. Der Baron bleibt für tot zurück.
+    - Er lebt. Doch seine Berichte sind die einzige Quelle und ihm glaubt man kein Wort.
+  ],
+  gameplay: [
+    *Problem → Bestandsaufnahme → Lösung → Pointe → Logbuch → Folgeproblem*
+    - Überlebensrätsel mit Mondeis, Schwefel, Salpeter und Bohnen.
+    - Nach jeder Lösung schreibt der Spieler das Logbuch: wahr, ausgeschmückt oder erfunden.
+  ],
+  dna: [
+    - *Genre & Look:* Point & Click-Adventure in Sepia-Pixel-Art. Dithering wird zur Schraffur, wie ein Kupferstich-Buch.
+    - *Das Logbuch:* Übertreibung bringt Pointen, kostet aber Glaubwürdigkeit auf der Erde. Sie verändert Wege, sperrt sie nie.
+    - *Aufklärung als Rätsellogik:* Altes Alchemiebuch gegen neue Chemie. Alte Rezepte scheitern komisch, die Wissenschaft folgt lernbaren Regeln.
+    - *Drei Stränge, eine Rettung:* Jederzeit Figurenwechsel. Kontakt, Umkehr und Rettung gelingen nur gemeinsam.
+    - *Galgenhumor & fair scheitern:* Kein Tod, keine Sackgassen. Nach Katastrophen bleibt das Spiel länger ernst.
+  ],
+  strands: [
+    - *Mond – Münchhausen:* Überleben, Experimente, Logbuch.
+    - *Erde – Sternwarten-Gehilfin:* zwischen streitenden Alchemisten und Chemikern.
+    - *Luftschiff – Kapitänin:* hat ihn zurückgelassen, führt die Umkehr an.
+  ],
+  anchors: (
+    ("Auslöser", [Mondstaubsturm, Notstart, der Baron bleibt zurück.]),
+    ("Überleben", [Bohnen im Kraterglashaus, Wasser aus Mondeis.]),
+    ("Wendepunkt", [Lettern im Mondstaub. Er lernt aus einem Buch die optische Telegrafie: Spiegelsignale zur Erde.]),
+    ("Rückschlag", [Die Mondnacht lässt das Bohnenhaus erfrieren.]),
+    ("Tiefpunkt", [Die Versorgungskanone versagt.]),
+    ("Umkehr", [Die Crew kehrt gegen den Befehl der Akademie um.]),
+    ("Finale", [Abstieg am Seil aus Bohnenstroh – zu kurz.]),
+  ),
+)
