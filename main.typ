@@ -16,4 +16,4 @@
 #show image: it => box(stroke: 10pt + red, it)
 
 #include "drafts/a-muenchhausen-selenothek.typ"
-#include "drafts/c-aschenland-alchemistin.typ"
+//#include "drafts/c-aschenland-alchemistin.typ"

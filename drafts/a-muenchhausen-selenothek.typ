@@ -3,12 +3,15 @@
 #vision(
   title: [Münchhausen und die Selenothek],
   x: ["In einer Bibliothek aller Lügen ist der größte Lügner der Welt zu Hause."],
-  img: image("../images/m-selenothek-gpt.png", height: 250pt),
+  img: [
+    #image("../images/m-selenothek-gpt.png", height: 250pt)\
+    #text(fill: color.red)[KI-generiert Grafik]
+    ],
   about: [
-    - Zeitalter der Aufklärung: Ein Luftschiff der Akademie fliegt zum Mond, an Bord: Baron Münchhausen.
-    - Ein Mondstaubsturm erzwingt den Notstart. Der Baron bleibt für tot zurück.
-    - Er findet Zuflucht in der _Selenothek_: einer endlosen Bibliothek die jedes mögliche Buch enthält.
-    - Auf der Erde glaubt ihm niemand. Eine Bibliothek auf dem Mond? Typisch Münchhausen.
+    - Die Akademie streitet: Ist der Mond aus Silber, wie die Alchemie lehr– oder aus Gestein? Eine seltene Konstellation erlaubt jetzt den Flug, die nächste erst in Jahren.
+    - Münchhausen behauptet schon oben gewesen sein, um sein Silberbeil zurück zu holen. Er fliegt als „Führer" mit.
+    - Ein Mondstaubsturm erzwingt den Notstart. Der Baron bleibt zurück und findet Zuflucht in der _Selenothek_, einer Bibliothek mit jedem möglichen Buch.
+    - Auf der Erde glaubt ihm niemand. Typisch Münchhausen.
   ],
   gameplay: [
     *Problem → Bestandsaufnahme → Lösung → Pointe → Logbuch → Folgeproblem*
@@ -24,16 +27,16 @@
   ],
   strands: [
     - *Mond – Münchhausen:* Überleben, Selenothek, Logbuch.
-    - *Erde – Sternwarten-Gehilfin:* muss der Akademie die Mondbibliothek beweisen.
+    - *Erde – Sternwarten-Gehilfin:* muss der Akademie die Mondbibliothek beweisen
     - *Luftschiff – Kapitänin:* hat ihn zurückgelassen, führt die Umkehr an.
   ],
   anchors: (
     ("Auslöser", [Mondstaubsturm, Notstart, der Baron bleibt zurück.]),
-    ("Überleben", [Bohnen unter der Kuppel, Wasser aus Mondeis, das erste Pigment.]),
+    ("Überleben", [Bohnen unter der Kuppel, Wasser aus Mondeis.]),
     ("Wendepunkt", [Er lernt aus einem Buch die optische Telegrafie: Spiegelsignale zur Erde.]),
-    ("Rückschlag", [Die Mondnacht lässt die Bohnen erfrieren – die Farbe verblasst.]),
+    ("Rückschlag", [Die Mondnacht lässt die Bohnen erfrieren, die Farbe verblasst.]),
     ("Tiefpunkt", [Die Versorgungskanone versagt.]),
-    ("Umkehr", [Die Crew kehrt gegen den Befehl der Akademie um.]),
-    ("Finale", [Abstieg am Seil aus Bohnenstroh – zu kurz.]),
+    ("Umkehr", [Crew kehrt gegen den Befehl der Akademie um, bevor sich das Fenster schließt.]),
+    ("Finale", [Abstieg am Seil aus Bohnenstroh... zu kurz.]),
   ),
 )
