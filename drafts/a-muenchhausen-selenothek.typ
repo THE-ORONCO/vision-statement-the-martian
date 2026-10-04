@@ -7,7 +7,7 @@
   about: [
     - Zeitalter der Aufklärung: Ein Luftschiff der Akademie fliegt zum Mond, an Bord: Baron Münchhausen.
     - Ein Mondstaubsturm erzwingt den Notstart. Der Baron bleibt für tot zurück.
-    - Er findet Zuflucht in der _Selenothek_: einer endlosen Bibliothek mit jedem möglichen Buch.
+    - Er findet Zuflucht in der _Selenothek_: einer endlosen Bibliothek die jedes mögliche Buch enthält.
     - Auf der Erde glaubt ihm niemand. Eine Bibliothek auf dem Mond? Typisch Münchhausen.
   ],
   gameplay: [
