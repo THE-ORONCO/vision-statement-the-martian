@@ -1,4 +1,4 @@
-#set page(paper: "presentation-16-9", margin: (x: 1.5cm, y: 1.1cm), numbering: "1")
+#set page(paper: "presentation-16-9", margin: (x: 1.5cm, y: 1.1cm))
 #set text(lang: "de", size: 10pt)
 #set par(justify: true, leading: 0.55em)
 #show heading.where(level: 1): set text(size: 18pt)
@@ -10,8 +10,6 @@
 )
 
 #include "drafts/a-muenchhausen-mond.typ"
-#pagebreak()
-#include "drafts/c-aschenland-novizin.typ"
 #pagebreak()
 #include "drafts/c-aschenland-alchemistin.typ"
 #pagebreak()

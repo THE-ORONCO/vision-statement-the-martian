@@ -5,57 +5,51 @@
 ]
 #columns(2, gutter: 1cm)[
   == Worum geht es?
-  Eine alchemistische Luftschiff-Expedition der Akademie landet auf dem Mond. Ein Mondstaubsturm
-  zwingt die Crew zum Notstart, Baron Münchhausen stürzt in eine Spalte und wird für tot
-  gehalten. Auf der Erde wird er betrauert – und belächelt: Sein Tod sei seine beste Geschichte.
-  Der Proviant reicht für sechzig Tage, das nächste Schiff kommt in zwei Jahren. Der Baron bleibt
-  nicht liegen. Mit Alchemie, Improvisation und grenzenlosem Selbstbewusstsein macht er den Mond
-  bewohnbar – und schreibt alles in sein Logbuch. Etwas geschönt, versteht sich.
+  Im Zeitalter der Aufklärung streitet die Akademie: Ist die Alchemie noch Wissenschaft – oder
+  schon Aberglaube? Ihre Antwort ist ein Luftschiff, getragen von _brennbarer Luft_, das zum Mond
+  fliegt. An Bord: Baron Münchhausen. Ein Mondstaubsturm zwingt die Crew zum Notstart, der Baron
+  bleibt für tot zurück. Auf der Erde wird er betrauert – und belächelt: Sein Tod sei seine beste
+  Geschichte.
 
-  Das eigentliche Problem beginnt, als man ihn auf der Erde entdeckt: *Niemand glaubt es.* Es ist
-  ja Münchhausen.
+  Er lebt. Mit einem alten Alchemiebuch, einem neuen Chemielehrbuch und grenzenlosem
+  Selbstbewusstsein macht er den Mond bewohnbar. Seine Berichte zur Erde sind die einzige Quelle –
+  und der Mann ist bekannt dafür, dass man ihm kein Wort glauben kann.
 
   #colbreak()
   == Core Gameplay
-  Jede Episode folgt demselben Takt:
-  *Problem → Bestandsaufnahme → alchemistische Lösung (oft mit Fehlschlag) → Pointe → Folgeproblem.*
-  Der Spieler untersucht, sammelt und kombiniert – Mondeis, Schwefel, Salpeter, Bohnen aus der
-  Westentasche – nach festen alchemistischen Regeln. Zwischen den Episoden wechselt er die Figur:
-  Was auf dem Mond gelöst wird, erzeugt auf der Erde oder an Bord ein neues Problem.
+  *Problem → Bestandsaufnahme → Lösung (oft mit Fehlschlag) → Pointe → Logbuch → Folgeproblem.*
+  Auf dem Mond löst der Spieler Überlebensrätsel mit Mondeis, Schwefel, Salpeter und Bohnen aus
+  der Westentasche. Nach jeder Lösung schreibt er das Logbuch: wahr, ausgeschmückt oder frei
+  erfunden. Auf der Erde muss die Sternwarten-Gehilfin mit genau diesen Berichten arbeiten –
+  und die Akademie überzeugen.
 
   == Drei Stränge, drei Figuren
-  - *Mond – Münchhausen:* Überleben, Logbuch, Galgenhumor.
-  - *Erde – die Sternwarten-Gehilfin:* entdeckt seine Zeichen im Mondstaub und muss eine
-    skeptische Akademie überzeugen.
+  - *Mond – Münchhausen:* Überleben, Experimente, das Logbuch.
+  - *Erde – die Sternwarten-Gehilfin:* zwischen Alchemisten und Chemikern der Akademie, die über
+    jeden Bericht streiten.
   - *Luftschiff – die Kapitänin:* hat ihn zurückgelassen und trägt die Schuld; ihr Strang führt
     zur Umkehr.
 ]
 == Die DNA des Spiels
 #columns(2, gutter: 1cm)[
-  - #underline[*Genre:*] Narratives Rätsel-Adventure (Point & Click), 2D, handgezeichnet,
-    komödiantisches Abenteuer im 18. Jahrhundert, das es nie gab.
+  - #underline[*Genre & Look:*] Narratives Rätsel-Adventure (Point & Click), Pixel-Art mit
+    reduzierter Sepia-Palette. Dithering wird zur Schraffur: Das Spiel sieht aus wie ein
+    Kupferstich-Buch voller Lügengeschichten.
 
-  - #underline[*Lernbare Alchemie:*] Die Alchemie ist die Wissenschaft des Spiels. Sie folgt
-    festen Regeln (Tria prima: Schwefel, Quecksilber, Salz – plus die vier Elemente) und
-    realer Chemie des 18. Jahrhunderts (_brennbare Luft_, Pottasche, Salpeter). Wer die Regeln
-    verstanden hat, kann jede Lösung herleiten. Jedes Lösungsmittel ist vorher sichtbar etabliert.
+  - #underline[*Das Logbuch als Mechanik:*] Der Spieler entscheidet, wie der Baron erzählt.
+    Übertreibungen bringen die größeren Pointen, kosten aber Glaubwürdigkeit auf der Erde. Dort
+    müssen dann mehr Beweise her. Glaubwürdigkeit verändert Wege, sperrt sie aber nie.
 
-  - #underline[*Wahrheit gegen Seemannsgarn:*] Das Logbuch ist ein unzuverlässiger Erzähler.
-    Münchhausen übertreibt, das Bild zeigt die Wahrheit – der Kontrast ist die Pointe. Auf der
-    Erde wird Glaubwürdigkeit zur Mechanik: Beweise sammeln, Gutachter überzeugen, Gerüchte
-    entkräften.
-
-  - #underline[*Drei Stränge, eine Rettung:*] Der Spieler wechselt jederzeit zwischen den drei Figuren.
-    Die zentralen Rätsel (Kontakt, Umkehr, Rettung) sind nur gemeinsam lösbar: Eine Figur
-    kodiert, die andere dekodiert.
+  - #underline[*Aufklärung als Rätsellogik:*] Zwei Wissensquellen: das alte Alchemiebuch und die
+    neue Chemie. Alte Rezepte scheitern oft (komisch, nie tödlich), wohingegen die neue Wissenschaft
+     nach festen, lernbaren Regeln funktioniert. Manchmal steckt im Aberglauben aber ein wahrer Kern.
 
   #colbreak()
 
-  - #underline[*Galgenhumor mit Pausen:*] Jeder Erfolg und jeder kleine Fehlschlag endet mit
-    einer Pointe. Nach großen Katastrophen hält das Spiel den Ernst bewusst länger aus.
+  - #underline[*Drei Stränge, eine Rettung:*] Der Spieler wechselt jederzeit zwischen den drei
+    Figuren. Kontakt, Umkehr und Rettung sind nur gemeinsam lösbar.
 
-  - #underline[*Fair scheitern:*] Kein Tod, keine Sackgassen. Fehlversuche sind komisch, nicht
-    tödlich. Ein Hinweissystem im Spiel ersetzt die Komplettlösung.
+  - #underline[*Galgenhumor & fair scheitern:*] Kein Tod, keine Sackgassen. Nach großen Katastrophen hält das Spiel den Ernst bewusst länger aus.
 
   == Dramaturgische Anker
   #table(
@@ -64,7 +58,7 @@
     inset: 4pt,
     [*Auslöser*], [Mondstaubsturm, Notstart, Münchhausen bleibt zurück.],
     [*Überleben*], [Türkische Bohnen im Kraterglashaus, Wasser aus Mondeis.],
-    [*Wendepunkt*], [Riesige Lettern im Mondstaub, Kontakt über einen alten Spiegeltelegrafen, der sich nur drehen kann.],
+    [*Wendepunkt*], [Riesige Lettern im Mondstaub machen die Sternwarte aufmerksam. Münchhausen lernt die optische Telegrafie aus einem Buch und sendet mit Spiegel und Sonnenlicht Zeichen zur Erde.],
     [*Rückschlag*], [Die Mondnacht (14 Tage) lässt das Bohnenhaus erfrieren.],
     [*Tiefpunkt*], [Die Versorgungskanone versagt, die Kugel zerbricht.],
     [*Umkehr*], [Die Crew kehrt gegen den Befehl der Akademie um.],
